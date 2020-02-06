@@ -65,3 +65,5 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 
 gem 'kaminari'
+
+gem 'webpacker', '~> 3.5'
