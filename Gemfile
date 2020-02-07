@@ -67,3 +67,9 @@ gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem 'kaminari'
 
 gem 'webpacker', '~> 3.5'
+
+gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+gem 'carrierwave-aws', '~> 1.4'
+gem 'mini_magick', '~> 4.10', '>= 4.10.1'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
+
