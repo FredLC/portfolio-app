@@ -1,4 +1,9 @@
 <%= form_for(@portfolio_item) do |form| %>
+  <% if @portfolio_item.errors.any? %>
+    <% @portfolio_item.errors.full_messages.each do |error| %>
+      <%= js add_gritter(error, title: "Fred Lefevre Portfolio", sticky: false) %>
+    <% end %>
+  <% end %>
 
   <div class="field form-group">
     <%= form.label :title %>
@@ -35,6 +40,6 @@
   </div>
 
   <div class="actions">
-    <%= form.submit "Update", class: "btn btn-primary" %>
+    <%= form.submit "Submit", class: "btn btn-primary" %>
   </div>
 <% end %>
