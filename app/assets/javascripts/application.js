@@ -19,6 +19,7 @@
 //= require gritter
 //= require lib/typed
 //= require lib/typed-implementation
+//= require cable
 //= require turbolinks
 //= require_tree .
 //= require popper
